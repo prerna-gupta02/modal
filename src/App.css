@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mmain{
+  /* padding: 20px !important; */
+}
+.mbody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content{
+  height: 260px !important;
+  padding: 30px 20px;
+}
+.mbody img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.mbody p{
+  text-align: center;
+}
+.bttn{
+  background-color: purple;
+}
+.mbody h6{
+  font-weight: 800;
+}
+@media screen and (max-width: 400px) {
+  .modal-content{
+    height: 280px !important;
+  }
+}
